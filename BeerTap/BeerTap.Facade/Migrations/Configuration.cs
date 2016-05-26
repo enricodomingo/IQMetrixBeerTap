@@ -11,7 +11,7 @@ namespace BeerTap.Facade.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(BeerTap.Facade.Model.BeerTap context)
