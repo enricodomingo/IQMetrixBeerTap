@@ -39,8 +39,18 @@ namespace BeerTap.Facade.Controller
 
             if (officeBeer.Result.mL == 0)
                 throw new DomainServiceException(string.Format("Your glass can't fill with remaining beer {0} on the container Mate!", beerId));
+
+            if (officeBeer.Result.mL < 100)
+            {
+                officeBeer.Result.mL = 0;
+            }
+            else
+            {
+                officeBeer.Result.mL -= 100;
+            }
+
             officeEmployee.Result.BeerCount += 1;
-            officeBeer.Result.mL -= 100;
+            
             _db.SaveChanges();
             return Task.FromResult(officeBeer.Result);
         }
