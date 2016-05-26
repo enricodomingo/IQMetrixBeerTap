@@ -27,15 +27,19 @@ namespace BeerTap.Facade.Controller
         {
             var officeBeer = ValidateOfficeBeer(officeId, beerId);
             if (officeBeer.Result == null)
-                throw new DomainServiceException(string.Format("Office: {0} or Beer: {1} does not exist Mate!",officeId,beerId));
+                throw new DomainServiceException(string.Format("Office: {0} or Beer: {1} does not exist Mate!", officeId, beerId));
 
-            var officeEmployee = ValidateOfficeEmployee(officeId,employeeId);
+            var officeEmployee = ValidateOfficeEmployee(officeId, employeeId);
             if (officeEmployee.Result == null)
                 throw new DomainServiceException(string.Format("Employee Id: {0} don't have the rights to get a beer Mate!", employeeId));
 
-            if(officeBeer.Result.mL == 0)
-                throw new DomainServiceException(string.Format("Your glass can't fill with remaining beer {0} on the container Mate!", beerId));
+            if (officeEmployee.Result.Driving == true)
+                if (officeEmployee.Result.BeerCount > 5)
+                    throw new DomainServiceException(string.Format("Drunk driving is prohibited Mate! You already have {0} glass of beer!", officeEmployee.Result.BeerCount));
 
+            if (officeBeer.Result.mL == 0)
+                throw new DomainServiceException(string.Format("Your glass can't fill with remaining beer {0} on the container Mate!", beerId));
+            officeEmployee.Result.BeerCount += 1;
             officeBeer.Result.mL -= 100;
             _db.SaveChanges();
             return Task.FromResult(officeBeer.Result);

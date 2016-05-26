@@ -11,5 +11,7 @@
         [StringLength(50)]
         public string Name { get; set; }
         public int OfficeId { get; set; }
+        public bool Driving { get; set; }
+        public int BeerCount { get; set; }
     }
 }
