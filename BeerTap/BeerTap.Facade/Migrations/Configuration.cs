@@ -36,9 +36,9 @@ namespace BeerTap.Facade.Migrations
 
             context.Employees.AddOrUpdate(
                   e => e.Id,
-                  new Employee { Name = "Enrico Domingo", OfficeId = 1 },
-                  new Employee { Name = "John Paul Asuncion", OfficeId = 1 },
-                  new Employee { Name = "John Evans Andal", OfficeId = 2 }
+                  new Employee { Name = "Enrico Domingo", OfficeId = 1, Driving = true, BeerCount = 0},
+                  new Employee { Name = "John Paul Asuncion", OfficeId = 1, Driving = true, BeerCount = 0 },
+                  new Employee { Name = "John Evans Andal", OfficeId = 2, Driving = false, BeerCount = 0 }
                 );
         }
     }
