@@ -1,0 +1,10 @@
+C:\Users\enrico.domingo\Documents\Visual Studio 2015\Projects\BeerTap\BeerTap.Facade\bin\Debug\BeerTap.Facade.dll.config
+C:\Users\enrico.domingo\Documents\Visual Studio 2015\Projects\BeerTap\BeerTap.Facade\bin\Debug\BeerTap.Facade.dll
+C:\Users\enrico.domingo\Documents\Visual Studio 2015\Projects\BeerTap\BeerTap.Facade\bin\Debug\BeerTap.Facade.pdb
+C:\Users\enrico.domingo\Documents\Visual Studio 2015\Projects\BeerTap\BeerTap.Facade\bin\Debug\EntityFramework.dll
+C:\Users\enrico.domingo\Documents\Visual Studio 2015\Projects\BeerTap\BeerTap.Facade\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\enrico.domingo\Documents\Visual Studio 2015\Projects\BeerTap\BeerTap.Facade\bin\Debug\EntityFramework.xml
+C:\Users\enrico.domingo\Documents\Visual Studio 2015\Projects\BeerTap\BeerTap.Facade\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\enrico.domingo\Documents\Visual Studio 2015\Projects\BeerTap\BeerTap.Facade\obj\Debug\BeerTap.Facade.csprojResolveAssemblyReference.cache
+C:\Users\enrico.domingo\Documents\Visual Studio 2015\Projects\BeerTap\BeerTap.Facade\obj\Debug\BeerTap.Facade.dll
+C:\Users\enrico.domingo\Documents\Visual Studio 2015\Projects\BeerTap\BeerTap.Facade\obj\Debug\BeerTap.Facade.pdb
