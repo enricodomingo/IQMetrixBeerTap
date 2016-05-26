@@ -42,7 +42,6 @@ namespace BeerTap.Facade.Controller
 
             return Task.FromResult(beer.FirstOrDefault());
         }
-
         public Beer Update(Beer beer)
         {
             var _beer = GetBeerById(beer.Id,beer.OfficeId);
