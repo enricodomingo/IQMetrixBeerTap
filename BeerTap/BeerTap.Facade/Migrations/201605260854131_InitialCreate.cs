@@ -1,3 +1,5 @@
+using System.Data.SqlTypes;
+
 namespace BeerTap.Facade.Migrations
 {
     using System;

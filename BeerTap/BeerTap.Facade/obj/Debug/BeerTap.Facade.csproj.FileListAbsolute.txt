@@ -18,3 +18,5 @@ C:\Users\enrico.domingo\Documents\IQMetrixBeerTap\BeerTap\BeerTap.Facade\bin\Deb
 C:\Users\enrico.domingo\Documents\IQMetrixBeerTap\BeerTap\BeerTap.Facade\obj\Debug\BeerTap.Facade.csprojResolveAssemblyReference.cache
 C:\Users\enrico.domingo\Documents\IQMetrixBeerTap\BeerTap\BeerTap.Facade\obj\Debug\BeerTap.Facade.dll
 C:\Users\enrico.domingo\Documents\IQMetrixBeerTap\BeerTap\BeerTap.Facade\obj\Debug\BeerTap.Facade.pdb
+C:\Users\enrico.domingo\Documents\IQMetrixBeerTap\BeerTap\BeerTap.Facade\obj\Debug\BeerTap.Facade.Migrations.InitialCreate.resources
+C:\Users\enrico.domingo\Documents\IQMetrixBeerTap\BeerTap\BeerTap.Facade\obj\Debug\BeerTap.Facade.csproj.GenerateResource.Cache

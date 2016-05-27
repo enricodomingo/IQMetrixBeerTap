@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using BeerTap.Facade.Model;
 using System.Threading.Tasks;
-using System;
 
 namespace BeerTap.Facade.Controller
 {

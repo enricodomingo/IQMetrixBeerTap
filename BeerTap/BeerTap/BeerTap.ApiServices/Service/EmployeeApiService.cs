@@ -52,7 +52,16 @@ namespace BeerTap.ApiServices.Service
 
         public Task<Employee> UpdateAsync(Employee resource, IRequestContext context, CancellationToken cancellation)
         {
-            throw new NotImplementedException();
+            //var officeId = context.UriParameters.GetByName<int>("OfficeID").EnsureValue();
+            //var linkParameter = new BeerLinkParameter(officeId);
+            //resource.OfficeId = officeId;
+            //context.LinkParameters.Set(linkParameter);
+
+            //var originalBeer = _toResourceMapper.Map(_employeeService.GetEmployeeById(resource.Id, officeId).Result);
+            //var resultBeer = context.MergeResource(resource, originalBeer);
+            //_employeeService.Update(_toTransportMapper.Map(resultBeer));
+            //return Task.FromResult(resource);
+            return null;
         }
     }
 }
